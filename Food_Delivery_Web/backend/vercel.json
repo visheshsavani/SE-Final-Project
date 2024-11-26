@@ -16,7 +16,7 @@
       "dest": "Food_Delivery_Web/frontend/frontend/dist/index.html"
     },
     {
-      "src": "/(.*)",
+      "src": "/admin/(.*)",
       "dest": "Food_Delivery_Web/admin/index.html"
     }
   ]
