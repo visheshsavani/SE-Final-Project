@@ -15,5 +15,8 @@
       "src": "/(.*)",
       "dest": "Food_Delivery_Web/frontend/frontend/dist/index.html"
     }
+  ],
+  "rewrites":[
+    {"source": "/(.*)","destination": "/"}
   ]
 }
