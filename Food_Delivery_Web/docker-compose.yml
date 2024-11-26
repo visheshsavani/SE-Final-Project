@@ -1,0 +1,49 @@
+
+services:
+  admin:
+    build: ./admin
+    ports:
+      - '5173:5173'
+    volumes:
+      - ./admin:/app
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - backend
+    networks:
+      - mern
+
+  frontend:
+    build: ./frontend
+    ports:
+      - '5174:5174'
+    volumes:
+      - ./frontend:/app
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - backend
+    networks:
+      - mern
+
+  backend:
+    build: ./backend
+    ports:
+      - '4000:4000'
+    volumes:
+      - ./backend:/app
+    environment:
+      - NODE_ENV=development
+    networks:
+      - mern
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:latest
+    networks:
+      - mern
+
+networks:
+  mern:
+    driver: bridge

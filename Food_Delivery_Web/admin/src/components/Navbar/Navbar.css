@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Norican&family=Outfit:wght@100..900&display=swap');
+
+
+.navbar{
+     /* display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 17px 5%; */
+     background-color: #ecf1f4;
+     box-shadow: 0px 0px 90px #00000015;
+     /* margin-bottom: 20px; */
+     padding-top: 21px;
+     padding-bottom: 21px;
+     padding-left: 40px;
+     padding-right: 40px;
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     position: sticky;
+     width: 100%;
+}
+.navbar .logo{
+     width: max(10%, 80px);
+}
+.navbar .profile{
+     width: 40px;
+}
+.navbar .logo-name{
+     width:150px;
+     color: tomato;
+     font-size: 30px;
+     font-family: "Norican", cursive;
+     font-weight: 0;
+
+}

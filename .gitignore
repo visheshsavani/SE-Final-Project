@@ -1,0 +1,82 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Environment variable files
+.env
+.env.test
+.env.local
+.env.*.local
+
+# Directory for local environment development
+.local
+
+# Build output directories
+dist/
+build/
+
+# Debug output
+debug/
+out/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage directory used by testing tools
+coverage/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional babel cache
+.babel_cache.json
+.babelrc.js
+
+# Optional typescript cache
+*.tsbuildinfo
+
+# Parcel-bundler cache (for projects using Parcel)
+.cache/
+
+# Next.js build output
+.next/
+
+# Nuxt.js build output
+.nuxt/
+
+# Sapper build output
+__sapper__/
+
+# Gatsby files
+.cache/
+public/
+
+# Storybook files
+.out/
+storybook-static/
+
+# Yarn v2 files
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*
